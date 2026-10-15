@@ -1,6 +1,6 @@
 # Operator prompts, verbatim
 
-40 prompts the operator typed into this repo's Claude Code sessions, in order, from 2026-10-14T20:58Z to 2026-10-15T09:02Z (operator's local time is UTC+2). Each body is the exact text, inside a code fence so it displays verbatim; blocks the harness appended (system reminders) are removed. Prompts the assistant wrote for its own subagents are not included. The source line in `raw/` is given under each heading.
+41 prompts the operator typed into this repo's Claude Code sessions, in order, from 2026-10-14T20:58Z to 2026-10-15T09:04Z (operator's local time is UTC+2). Each body is the exact text, inside a code fence so it displays verbatim; blocks the harness appended (system reminders) are removed. Prompts the assistant wrote for its own subagents are not included. The source line in `raw/` is given under each heading.
 
 ## P01 · 2026-10-14T20:58:39Z · session fa864524 · prompt · 380 chars
 
@@ -357,4 +357,12 @@ Source: `raw/1d2a533c-43ce-4f3d-b0a2-dc2c92d69b43.jsonl` line 2288, uuid `12dfd1
 
 ```text
 my email is fine, it's public on gh
+```
+
+## P41 · 2026-10-15T09:04:26Z · session 1d2a533c · mid-turn · 311 chars
+
+Source: `raw/1d2a533c-43ce-4f3d-b0a2-dc2c92d69b43.jsonl` line 2366, uuid `bd07fe5e-b269-4082-9d8c-6b448bb3f1b8`
+
+```text
+(scope: i dont want to be careless with data security in front of cto, but these repo will be live for 2 days tops and i have no suspicioun of malice. Calibrate to showing that I think about security (and any top level leaks like secret keys) but scrubbing that I live in Prague is a benchmark of going too far.
 ```
