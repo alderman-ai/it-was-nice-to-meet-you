@@ -77,6 +77,7 @@ for i in range(max(len(expected), len(found))):
         bad += 1
         print(f"MISMATCH at P{i + 1:02d}: transcript={e and (e[0], e[1], len(e[3]))} prompts.md={f and (f[0], f[1], len(f[3]))}")
 for s, p in sorted(files.items()):
-    print("sha256", hashlib.sha256(open(p, "rb").read()).hexdigest(), os.path.basename(p))
+    # hash with line endings normalised to LF, so a Windows checkout (CRLF) gives the same value as README.md
+    print("sha256", hashlib.sha256(open(p, encoding="utf-8").read().encode("utf-8")).hexdigest(), os.path.basename(p))
 print(("PASS: " if not bad else "FAIL: ") + f"{len(found)} prompts in PROMPTS.md, {len(expected)} extracted from the transcripts, {bad} mismatches")
 sys.exit(1 if bad else 0)

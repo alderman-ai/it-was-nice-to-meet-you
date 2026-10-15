@@ -1,6 +1,6 @@
 # Operator prompts, verbatim
 
-39 prompts the operator typed into this repo's Claude Code sessions, in order, from 2026-10-14T20:58Z to 2026-10-15T09:00Z (operator's local time is UTC+2). Each body is the exact text, inside a code fence so it displays verbatim; blocks the harness appended (system reminders) are removed. Prompts the assistant wrote for its own subagents are not included. The source line in `raw/` is given under each heading.
+40 prompts the operator typed into this repo's Claude Code sessions, in order, from 2026-10-14T20:58Z to 2026-10-15T09:02Z (operator's local time is UTC+2). Each body is the exact text, inside a code fence so it displays verbatim; blocks the harness appended (system reminders) are removed. Prompts the assistant wrote for its own subagents are not included. The source line in `raw/` is given under each heading.
 
 ## P01 · 2026-10-14T20:58:39Z · session fa864524 · prompt · 380 chars
 
@@ -349,4 +349,12 @@ Source: `raw/1d2a533c-43ce-4f3d-b0a2-dc2c92d69b43.jsonl` line 2193, uuid `d5965c
 
 ```text
 b
+```
+
+## P40 · 2026-10-15T09:02:40Z · session 1d2a533c · mid-turn · 35 chars
+
+Source: `raw/1d2a533c-43ce-4f3d-b0a2-dc2c92d69b43.jsonl` line 2288, uuid `12dfd16f-ca35-41e5-a2b3-90c388770811`
+
+```text
+my email is fine, it's public on gh
 ```
